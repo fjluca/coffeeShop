@@ -1,0 +1,57 @@
+body {
+    background-image: url(../assets/coffeeShop.webp);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    backdrop-filter: blur(5px);
+}
+
+
+.containerItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    margin: 50px;
+    background-color: #EED6C4;
+    width: 300px;
+    height: 370px;   
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+}
+
+.btnCards {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 40%;
+    transition: .5s;
+}
+
+.btnCards:hover {
+    background-color: white;
+}
+
+@media (max-width: 768px) { 
+    body {
+        background-image: url('../assets/pexels-photo-1223530.jpeg');
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+
+    
+}

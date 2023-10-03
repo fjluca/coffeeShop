@@ -1,0 +1,24 @@
+.shoppingCartContainer {
+    background-color: rgba(128, 128, 128, 0.566);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.cartContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+.btnCart {
+    margin-top: 230px;
+    width: 50%;
+}
